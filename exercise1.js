@@ -89,4 +89,4 @@ console.log(name1 !== name2); //result: true;    !== stands for not equal
 // we can also type:
 console.log(name1 === name2); //result: false
 //Extra:
-console.log(name1 === name2.toLowerCase()); //result: true because .toLowerCase() transforms "John" in "john"
+console.log(name1.toLowerCase() === name2.toLowerCase()); //result: true because .toLowerCase() transforms "John" in "john"
